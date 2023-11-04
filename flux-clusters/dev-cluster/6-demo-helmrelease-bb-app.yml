@@ -10,7 +10,7 @@ spec:
       chart: block-buster-helm-app
       reconcileStrategy: ChartVersion
       sourceRef:
-        kind: GitRepository
+        kind: HelmRepository
         name: 6-demo-source-helm-bb-app
   interval: 10s
   targetNamespace: 6-demo
