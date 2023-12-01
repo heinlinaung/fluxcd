@@ -9,7 +9,5 @@ spec:
   eventSources:
   - kind: GitRepository
     name: "*"
-  - kind: Kustomization
-    name: "*"
   providerRef:
     name: notification-provider-slack
